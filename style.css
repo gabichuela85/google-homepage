@@ -1,6 +1,6 @@
 body {
 	display: center;
-	padding-top:100px;
+	padding-top:150px;
 	margin-left: auto;
 	margin-right: auto;	
 	width:100%;
@@ -9,11 +9,71 @@ body {
 
 p {
 	display: inline-block;
+  text-decoration: underline;
+  color: blue;
+}
+#icon {
+  width: 25px;
+  padding-right: 10px;
 }
 
+#searchbar {
+  width: 400px;
+  border-radius: 15px;
+  height: 25px;
+}
 
+.navbar {
+  position: fixed;
+  top: 14px;
+  width: 100%; 
+}
 
+#navbarright {
+  float: right;
+}
 
+#navbarleft {
+  float: left;
+}
+#navbarbutton {
+  background-color: #3e90fa; /*blue*/
+  border-radius: 12px;
+  width: 75px;
+  height: 27px;
+  font-size: 14px;
+  
+}
+a {
+  color: #848482;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding-right: 25px;
+}
+ 
+ul {
+  list-style-type: none;
+  margin: 15px;
+  background: #d6d6d6;
+}
 
+li{
+  display: inline;
+  padding: 10px;
+}
 
+#leftfooter {
+  float: left;
+}
 
+#rightfooter {
+  float: right;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%; 
+  background-color: #d6d6d6;
+  margin: none;
+}
